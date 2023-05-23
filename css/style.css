@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
@@ -37,6 +36,7 @@ button {
 
 body{
     background-color: #1f1f1f;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu-navegacion{
@@ -72,7 +72,7 @@ body{
     font-size: 30px;
     padding-top: 30px;
 }
-
+/*TODO: No usar text-align?*/
 .sugerencias_semana {
     text-align: center;
     margin-bottom: 30px;
@@ -103,29 +103,7 @@ body{
     font-size: 20px;
 }
 
-
-.cards{
-    padding: 10px 40px;
-    text-align: center;
- }
-
- .card_body iframe{
-    object-fit: cover;
-    padding: 0%;
-    border: 0;
- }
-
- .card_body h3{
-    text-align: center;
-    padding: 10px;
- }
-
- .card_body {
-    display: inline-block;
-    width: 30%;
-    margin: 10px;
- }
-
+/*TODO: No usar text-align*/
 .caja {
    padding: 10px 30px;
    text-align: center;
@@ -184,7 +162,7 @@ body{
     background: #333232;
  }
 
- #arriba {
+ .boton_arriba {
     width: 40px;
     height: 40px;
     position: fixed;
