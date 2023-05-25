@@ -14,10 +14,9 @@ p {
 }
 
 input, textarea {
-    width: 60%;
+    width: 70%;
     padding: 12px 20px;
-    margin: 8px 375px;
-    display: inline-block;
+    margin: 8px 0;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 20px;
@@ -27,11 +26,15 @@ button {
     background-color: rgb(100, 206, 171);
     width: 10%;
     padding: 14px 20px;
-    margin: 8px 45%;
+    margin: 8px 0;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
     font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(74, 167, 136);
 }
 
 body{
@@ -126,15 +129,37 @@ body{
  }
 
 .sugerencias {
-    padding: 10px;
-    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+ }
+
+ .sugerencias_formulario {
+    width: 80%;
  }
 
 .contacto {
-    padding: 10px;
-    margin-top: 150px;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;    
 }
+
+.contacto_formulario {
+    width: 80%;
+}
+
+.flex_input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+ }
+
+ .flex_button {
+    display: flex;
+    justify-content: center;
+ }
 
 .footer {
     margin-top: 15px;
