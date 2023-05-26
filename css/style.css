@@ -44,16 +44,29 @@ body{
 
 .menu-navegacion{
     background-color: #333232;
-    padding: 10px;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
+
+/* Logo */
+/* .menu-navegacion a {
+    text-decoration:none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 .menu-navegacion ul {
     list-style-type: none;
+    display: flex;
+    /* justify-content: flex-end; */
 }
 
 .menu-navegacion ul li{
-    display: inline;
     padding: 10px;
 }
 
