@@ -42,27 +42,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.menu-navegacion{
+.offcanvas-header {
     background-color: #333232;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
 }
 
-.menu-navegacion ul {
-    list-style-type: none;
-    display: flex;
+.offcanvas-body {
+    background-color: #333232;
 }
 
-.menu-navegacion ul li{
-    padding: 10px;
+.navbar {
+    background-color: #333232;
 }
 
-.menu-navegacion ul li a{
-    text-decoration:none;
+.nav-item a {
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.navbar-toggler {
+    background-color: rgb(100, 206, 171);
 }
 
 .introduccion {
@@ -257,18 +256,21 @@ body{
  }
 
 .footer {
-    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333232;
 }
 
-.footer p{
-    text-align: center;
-    font-size: 15px;
+.footer p {
     position: fixed;
     bottom: 0;
+    height: 25px;
     width: 100%;
-    height: 20px;
+    font-size: 18px;
+    margin: 0;
     background: #333232;
- }
+}
 
  .boton_arriba {
     width: 40px;
