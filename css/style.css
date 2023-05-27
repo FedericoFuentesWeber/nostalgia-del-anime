@@ -42,6 +42,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar>.container-fluid {
+    justify-content: end;
+}
+
 .offcanvas-header {
     background-color: #333232;
 }
