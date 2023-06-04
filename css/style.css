@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
 }
 
 p {
@@ -101,6 +100,10 @@ body{
     padding: 20px 40px;
     text-align: center;
     font-size: 24px; 
+}
+
+.introduccion h1 {
+    color: #fff;
 }
 
 .introduccion p{
@@ -268,7 +271,7 @@ body{
 
     .grid_galeria {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(auto);
+        /* grid-template-rows: repeat(auto); */
         grid-template-areas: 
         'area8 area8'
         'area9 area9'
@@ -291,7 +294,7 @@ body{
  @media only screen and (max-width:768px) {
     .grid_galeria {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(auto);
+        /* grid-template-rows: repeat(auto); */
         grid-template-areas: 
         'area8 area8'
         'area9 area9'
@@ -312,9 +315,19 @@ body{
     }
  }
 
- @media only screen and (min-width:100px) and (max-width:480px) {
+ @media only screen and (min-width:360px) and (max-width:480px) {
     .grid_galeria {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        'area1'
+        'area2'
+        'area3'
+        'area4'
+        'area5'
+        'area6'
+        'area7'
+        'area8'
+        'area9'
+        ;
     }
  }
