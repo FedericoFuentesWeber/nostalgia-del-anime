@@ -271,7 +271,6 @@ body{
 
     .grid_galeria {
         grid-template-columns: repeat(2, 1fr);
-        /* grid-template-rows: repeat(auto); */
         grid-template-areas: 
         'area8 area8'
         'area9 area9'
@@ -293,8 +292,8 @@ body{
 
  @media only screen and (max-width:768px) {
     .grid_galeria {
+        margin: 20px 10px 50px 10px;
         grid-template-columns: repeat(2, 1fr);
-        /* grid-template-rows: repeat(auto); */
         grid-template-areas: 
         'area8 area8'
         'area9 area9'
@@ -317,6 +316,7 @@ body{
 
  @media only screen and (min-width:360px) and (max-width:480px) {
     .grid_galeria {
+        margin: 20px 10px 50px 10px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
         'area1'
