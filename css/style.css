@@ -1,334 +1,291 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 p {
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }
 
 input, textarea {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 20px;
- }
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
 
 button {
-    background-color: rgb(100, 206, 171);
-    width: 150px;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    font-size: 20px;
+  background-color: rgb(100, 206, 171);
+  width: 150px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: rgb(74, 167, 136);
+  cursor: pointer;
+  background-color: rgb(74, 167, 136);
 }
 
-body{
-    background-color: #1f1f1f;
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: #1f1f1f;
+  font-family: "Roboto", sans-serif;
 }
 
 .offcanvas-header {
-    background-color: #333232;
+  background-color: #333232;
 }
 
 .offcanvas-body {
-    background-color: #333232;
+  background-color: #333232;
 }
 
 .navbar {
-    background-color: #333232;
+  background-color: #333232;
 }
 
 .nav-item a {
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .navbar-toggler {
-    background-color: rgb(100, 206, 171);
+  background-color: rgb(100, 206, 171);
 }
 
 .navbar-brand img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333232;
 }
 
 .footer p {
-    position: fixed;
-    bottom: 0;
-    height: 25px;
-    width: 100%;
-    font-size: 18px;
-    margin: 0;
-    background: #333232;
+  position: fixed;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+  font-size: 18px;
+  margin: 0;
+  background: #333232;
 }
 
-.boton_arriba { 
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 30px;
-    right: 10px;
-    text-indent: -99999px;
-    cursor: pointer;
-    background: url("../images/back-to-top.png");
- }
+.boton_arriba {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  text-indent: -99999px;
+  cursor: pointer;
+  background: url("../images/back-to-top.png");
+}
 
 .introduccion {
-    background-image: linear-gradient(to left,rgb(138, 189, 172),rgb(21, 180, 127));
-    padding: 20px 40px;
-    text-align: center;
-    font-size: 24px; 
+  background-image: linear-gradient(to left, rgb(138, 189, 172), rgb(21, 180, 127));
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 24px;
 }
 
 .introduccion h1 {
-    color: #fff;
+  color: #fff;
 }
 
-.introduccion p{
-    font-size: 30px;
-    padding-top: 30px;
+.introduccion p {
+  font-size: 30px;
+  padding-top: 30px;
 }
 
 .sugerencias_semana {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .sugerencias_semana p {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .sugerencias_semana_formulario {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 50px;
 }
 
 .sugerencias_semana_formulario input {
-    position: absolute;
-    left: -9999px;
+  position: absolute;
+  left: -9999px;
 }
 
-.sugerencias_semana_formulario label>img {
-    height: 450px;
-    width: 300px;
+.sugerencias_semana_formulario label > img {
+  height: 450px;
+  width: 300px;
 }
 
-.sugerencias_semana_formulario input + label>img {
-    cursor: pointer;
- }
+.sugerencias_semana_formulario input + label > img {
+  cursor: pointer;
+}
 
-.sugerencias_semana_formulario input:checked + label>img {
-    border: 5px solid rgb(100, 206, 171);
+.sugerencias_semana_formulario input:checked + label > img {
+  border: 5px solid rgb(100, 206, 171);
 }
 
 .container {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .grid_galeria {
-    margin: 50px 50px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 500px);
-    grid-template-areas: 
-    'area8 area8 area9 area9'
-    'area1 area3 area2 area2'
-    'area1 area3 area2 area2'
-    'area5 area6 area4 area7'
-    'area5 area6 area4 area7'
-    ;
-
-    gap: 10px;
-    padding: 10px;
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 500px);
+  grid-template-areas: "area8 area8 area9 area9" "area1 area3 area2 area2" "area1 area3 area2 area2" "area5 area6 area4 area7" "area5 area6 area4 area7";
+  gap: 10px;
+  padding: 10px;
 }
 
 .grid_galeria_hijo {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .grid_galeria_hijo img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    padding: 0%;
-    border: 0;
-    display: block;
- }
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 0%;
+  border: 0;
+  display: block;
+}
 
- .imagen_descripcion {
-    position: absolute;
-    background: black;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
- }
+.imagen_descripcion {
+  position: absolute;
+  background: black;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
 
- .grid_galeria_hijo:hover .imagen_descripcion{
-    visibility: visible;
-    opacity: 1;
- }
+.grid_galeria_hijo:hover .imagen_descripcion {
+  visibility: visible;
+  opacity: 1;
+}
 
 .g1 {
-    grid-area: area1;
+  grid-area: area1;
 }
 
 .g2 {
-    grid-area: area2;
+  grid-area: area2;
 }
 
 .g3 {
-    grid-area: area3;
+  grid-area: area3;
 }
 
 .g4 {
-    grid-area: area4;
-} 
+  grid-area: area4;
+}
 
 .g5 {
-    grid-area: area5;
-} 
+  grid-area: area5;
+}
 
 .g6 {
-    grid-area: area6;
-} 
+  grid-area: area6;
+}
 
 .g7 {
-    grid-area: area7;
-} 
+  grid-area: area7;
+}
 
 .g8 {
-    grid-area: area8;
-} 
+  grid-area: area8;
+}
 
 .g9 {
-    grid-area: area9;
-} 
+  grid-area: area9;
+}
 
 .sugerencias {
-    display: flex;
-    justify-content: center;
-    height: 700px;
-    align-items: center;
- }
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  align-items: center;
+}
 
- .sugerencias_formulario {
-    width: 80%;
- }
+.sugerencias_formulario {
+  width: 80%;
+}
 
 .contacto {
-    display: flex;
-    justify-content: center;
-    height: 800px;
-    align-items: center;    
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  align-items: center;
 }
 
 .contacto_formulario {
-    width: 80%;
+  width: 80%;
 }
 
 .flex_input {
-    display: flex;
-    flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex_button {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menu-navegacion {
     justify-content: center;
- }
+  }
+  .grid_galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
+  }
+  .sugerencias_semana_formulario {
+    gap: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid_galeria {
+    margin: 20px 10px 50px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
+  }
+  .sugerencias_semana_formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .grid_galeria {
+    margin: 20px 10px 50px 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6" "area7" "area8" "area9";
+  }
+}
 
- .flex_button {
-    display: flex;
-    justify-content: center;
- }
-
- @media only screen and (max-width:1024px) {
-    .menu-navegacion{
-        justify-content: center;
-    }
-
-    .grid_galeria {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        'area8 area8'
-        'area9 area9'
-        'area1 area3'
-        'area1 area3'
-        'area2 area2'
-        'area2 area2'
-        'area5 area6'
-        'area5 area6'
-        'area4 area7'
-        'area4 area7'
-        ;
-    }
-
-    .sugerencias_semana_formulario {
-        gap: 5px;
-    }
- }
-
- @media only screen and (max-width:768px) {
-    .grid_galeria {
-        margin: 20px 10px 50px 10px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        'area8 area8'
-        'area9 area9'
-        'area1 area3'
-        'area1 area3'
-        'area2 area2'
-        'area2 area2'
-        'area5 area6'
-        'area5 area6'
-        'area4 area7'
-        'area4 area7'
-        ;
-    }
-
-    .sugerencias_semana_formulario {
-        flex-direction: column;
-        align-items: center;
-    }
- }
-
- @media only screen and (min-width:360px) and (max-width:480px) {
-    .grid_galeria {
-        margin: 20px 10px 50px 10px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 
-        'area1'
-        'area2'
-        'area3'
-        'area4'
-        'area5'
-        'area6'
-        'area7'
-        'area8'
-        'area9'
-        ;
-    }
- }
+/*# sourceMappingURL=style.css.map */
