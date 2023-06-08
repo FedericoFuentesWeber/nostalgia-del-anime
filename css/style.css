@@ -40,50 +40,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.offcanvas-header {
-  background-color: #333232;
-}
-
-.offcanvas-body {
-  background-color: #333232;
-}
-
-.navbar {
-  background-color: #333232;
-}
-
-.nav-item a {
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.navbar-toggler {
-  background-color: rgb(100, 206, 171);
-}
-
-.navbar-brand img {
-  height: 50px;
-  width: 50px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333232;
-}
-
-.footer p {
-  position: fixed;
-  bottom: 0;
-  height: 25px;
-  width: 100%;
-  font-size: 18px;
-  margin: 0;
-  background: #333232;
-}
-
 .boton_arriba {
   width: 40px;
   height: 40px;
@@ -136,6 +92,50 @@ body {
     grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6" "area7" "area8" "area9";
   }
 }
+.offcanvas-header {
+  background-color: #333232;
+}
+
+.offcanvas-body {
+  background-color: #333232;
+}
+
+.navbar {
+  background-color: #333232;
+}
+
+.nav-item a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  background-color: rgb(100, 206, 171);
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333232;
+}
+
+.footer p {
+  position: fixed;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+  font-size: 18px;
+  margin: 0;
+  background: #333232;
+}
+
 .introduccion {
   background-image: linear-gradient(to left, rgb(138, 189, 172), rgb(21, 180, 127));
   padding: 20px 40px;

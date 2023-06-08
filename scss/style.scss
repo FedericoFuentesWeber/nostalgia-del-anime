@@ -41,50 +41,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.offcanvas-header {
-    background-color: #333232;
-}
-
-.offcanvas-body {
-    background-color: #333232;
-}
-
-.navbar {
-    background-color: #333232;
-}
-
-.nav-item a {
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.navbar-toggler {
-    background-color: rgb(100, 206, 171);
-}
-
-.navbar-brand img {
-    height: 50px;
-    width: 50px;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333232;
-}
-
-.footer p {
-    position: fixed;
-    bottom: 0;
-    height: 25px;
-    width: 100%;
-    font-size: 18px;
-    margin: 0;
-    background: #333232;
-}
-
 .boton_arriba { 
     width: 40px;
     height: 40px;
@@ -181,8 +137,8 @@ body{
 // @import 'base/utilidades';
 
 //IMPORTS COMPONENTS
-// @import 'components/navbar';
-// @import 'components/footer';
+@import 'components/navbar';
+@import 'components/footer';
 
 //IMPORTS LAYOUT
 @import 'layout/index';
