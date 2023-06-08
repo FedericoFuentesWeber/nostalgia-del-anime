@@ -95,6 +95,47 @@ body {
   background: url("../images/back-to-top.png");
 }
 
+.flex_input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex_button {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menu-navegacion {
+    justify-content: center;
+  }
+  .grid_galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
+  }
+  .sugerencias_semana_formulario {
+    gap: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid_galeria {
+    margin: 20px 10px 50px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
+  }
+  .sugerencias_semana_formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .grid_galeria {
+    margin: 20px 10px 50px 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6" "area7" "area8" "area9";
+  }
+}
 .introduccion {
   background-image: linear-gradient(to left, rgb(138, 189, 172), rgb(21, 180, 127));
   padding: 20px 40px;
@@ -244,48 +285,6 @@ body {
 
 .contacto_formulario {
   width: 80%;
-}
-
-.flex_input {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.flex_button {
-  display: flex;
-  justify-content: center;
-}
-
-@media only screen and (max-width: 1024px) {
-  .menu-navegacion {
-    justify-content: center;
-  }
-  .grid_galeria {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
-  }
-  .sugerencias_semana_formulario {
-    gap: 5px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .grid_galeria {
-    margin: 20px 10px 50px 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
-  }
-  .sugerencias_semana_formulario {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media only screen and (min-width: 360px) and (max-width: 480px) {
-  .grid_galeria {
-    margin: 20px 10px 50px 10px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6" "area7" "area8" "area9";
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
