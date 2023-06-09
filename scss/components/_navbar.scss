@@ -11,13 +11,13 @@
 }
 
 .nav-item a {
-    color: #fff;
+    color: $color-secundario;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 .navbar-toggler {
-    background-color: rgb(100, 206, 171);
+    background-color: $color-secundario;
 }
 
 .navbar-brand img {

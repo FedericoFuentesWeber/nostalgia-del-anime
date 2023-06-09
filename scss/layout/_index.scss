@@ -1,17 +1,18 @@
 .introduccion {
-    background-image: linear-gradient(to left,rgb(138, 189, 172),rgb(21, 180, 127));
+    background-image: linear-gradient(to right, $color-secundario-oscuro,$color-secundario);
     padding: 20px 40px;
     text-align: center;
     font-size: 24px; 
 }
 
 .introduccion h1 {
-    color: #fff;
+    color: $color-principal;
 }
 
 .introduccion p{
     font-size: 30px;
     padding-top: 30px;
+    color: $color-principal;
 }
 
 .sugerencias_semana {
@@ -21,6 +22,7 @@
 .sugerencias_semana p {
     padding-top: 30px;
     padding-bottom: 30px;
+    color: $color-secundario;
 }
 
 .sugerencias_semana_formulario {
@@ -45,5 +47,5 @@
  }
 
 .sugerencias_semana_formulario input:checked + label>img {
-    border: 5px solid rgb(100, 206, 171);
+    border: 5px solid $color-secundario;
 }
