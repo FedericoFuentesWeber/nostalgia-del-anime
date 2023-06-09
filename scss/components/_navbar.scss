@@ -1,26 +1,39 @@
-.offcanvas-header {
-    background-color: #333232;
-}
-
-.offcanvas-body {
-    background-color: #333232;
-}
-
 .navbar {
-    background-color: #333232;
-}
+    background-color: $color-principal-claro;
 
-.nav-item a {
-    color: $color-secundario;
-    font-size: 20px;
-    text-transform: uppercase;
-}
+    .navbar-brand {
+        img {
+           height: 50px;
+           width: 50px;
+           object-fit: cover;
+        }
+        
+    }
 
-.navbar-toggler {
-    background-color: $color-secundario;
-}
+    .navbar-toggler {
+        background-color: $color-secundario;
+    }
 
-.navbar-brand img {
-    height: 50px;
-    width: 50px;
+    .offcanvas {
+
+        .offcanvas-header {
+            background-color: $color-principal-claro;
+
+            .offcanvas-title {
+                color: $color-secundario;
+            }
+        }
+
+        .offcanvas-body {
+            background-color: $color-principal-claro;
+
+            .nav-item {
+                a {
+                    color: $color-secundario;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
 }

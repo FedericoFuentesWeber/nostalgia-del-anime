@@ -1,10 +1,11 @@
 .sugerencias {
-    display: flex;
-    justify-content: center;
-    height: 700px;
-    align-items: center;
- }
+    @include flex-section(column, center, center, wrap, 700px); 
 
- .sugerencias_formulario {
-    width: 80%;
+    .sugerencias_formulario {
+      width: 80%;
+
+      div {
+        @include flex-input(row, wrap, center);
+      }
+   }
  }

@@ -3,49 +3,55 @@
     padding: 20px 40px;
     text-align: center;
     font-size: 24px; 
-}
 
-.introduccion h1 {
-    color: $color-principal;
-}
+    h1 {
+        color: $color-principal;
+    }
 
-.introduccion p{
-    font-size: 30px;
-    padding-top: 30px;
-    color: $color-principal;
+    p{
+        font-size: 30px;
+        padding-top: 30px;
+        color: $color-principal;
+    }
 }
 
 .sugerencias_semana {
     margin-bottom: 30px;
-}
 
-.sugerencias_semana p {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: $color-secundario;
-}
+    p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: $color-secundario;
+    }
 
-.sugerencias_semana_formulario {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    gap: 50px;
-}
+    .sugerencias_semana_formulario {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 50px;
+    
+        input {
+            position: absolute;
+            left: -9999px;
 
-.sugerencias_semana_formulario input {
-    position: absolute;
-    left: -9999px;
-}
+            &+label>img {
+                cursor: pointer;
+            }
 
-.sugerencias_semana_formulario label>img {
-    height: 450px;
-    width: 300px;
-}
+            &:hover+label>img {
+                border: 5px solid $color-secundario;
+            }
+        }
+    
+        label{
+            img {
+                height: 450px;
+                width: 300px;
+            }
+        }
 
-.sugerencias_semana_formulario input + label>img {
-    cursor: pointer;
- }
-
-.sugerencias_semana_formulario input:checked + label>img {
-    border: 5px solid $color-secundario;
+        &_boton {
+            @include flex-input(row, wrap, center)
+        }
+    }
 }

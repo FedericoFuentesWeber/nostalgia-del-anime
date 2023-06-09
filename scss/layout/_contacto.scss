@@ -1,10 +1,11 @@
 .contacto {
-    display: flex;
-    justify-content: center;
-    height: 800px;
-    align-items: center;    
-}
+    @include flex-section(column, center, center, wrap, 800px); 
 
-.contacto_formulario {
-    width: 80%;
+    .contacto_formulario {
+        width: 80%;
+
+        div {
+            @include flex-input(row, wrap, center);
+          }
+    }
 }
