@@ -92,7 +92,8 @@ body {
 }
 
 .introduccion {
-  background-image: linear-gradient(to right, rgb(74, 167, 136), rgb(100, 206, 171));
+  background-image: linear-gradient(45deg, rgb(44, 139, 108), rgb(74, 167, 136), rgb(100, 206, 171));
+  transition: 1.5s;
   padding: 20px 40px;
   text-align: center;
   font-size: 24px;
@@ -104,6 +105,9 @@ body {
   font-size: 30px;
   padding-top: 30px;
   color: #1f1f1f;
+}
+.introduccion:hover {
+  background-image: linear-gradient(70deg, rgb(100, 206, 171), rgb(74, 167, 136), rgb(44, 139, 108));
 }
 
 .sugerencias_semana {
@@ -159,6 +163,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  transition: 3s;
 }
 .grid_galeria .grid_galeria_hijo img {
   height: 100%;
@@ -174,10 +179,16 @@ body {
   color: #fff;
   visibility: hidden;
   opacity: 0;
+  transform: translateX(100%);
 }
 .grid_galeria .grid_galeria_hijo:hover .imagen_descripcion {
+  transition: 2s;
   visibility: visible;
   opacity: 1;
+  transform: translateX(0%);
+}
+.grid_galeria .grid_galeria_hijo:hover {
+  transform: scale(1.05);
 }
 .grid_galeria .g1 {
   grid-area: area1;

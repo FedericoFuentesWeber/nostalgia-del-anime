@@ -19,7 +19,8 @@
         height: 100%;
         display: flex;
         justify-content: center;
-    
+        transition: 3s;
+
         img {
             height: 100%;
             width: 100%;
@@ -35,11 +36,18 @@
             color: #fff;
             visibility: hidden;
             opacity: 0;
+            transform: translateX(100%);
          }
 
          &:hover .imagen_descripcion{
+            transition: 2s;
             visibility: visible;
             opacity: 1;
+            transform: translateX(0%);
+         }
+
+         &:hover {
+            transform: scale(1.05);
          }
     }
 
