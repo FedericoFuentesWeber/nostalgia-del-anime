@@ -1,11 +1,12 @@
 .sugerencias {
-    @include flex-section(column, center, center, wrap, 700px); 
+  @include animacion(movimiento, 1, linear, 2s);
+  @include flex-section(column, center, center, wrap, 700px); 
 
-    .sugerencias_formulario {
-      width: 80%;
+  .sugerencias_formulario {
+    width: 80%;
 
-      div {
-        @include flex-input(row, wrap, center);
-      }
-   }
- }
+    div {
+      @include flex-input(row, wrap, center);
+    }
+  }
+}

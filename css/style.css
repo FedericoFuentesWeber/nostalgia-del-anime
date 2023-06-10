@@ -39,6 +39,34 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@keyframes movimiento {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-75%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes aparicion {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .navbar {
   background-color: #333232;
 }
@@ -111,6 +139,10 @@ body {
 }
 
 .sugerencias_semana {
+  animation-name: aparicion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 3s;
   margin-bottom: 30px;
 }
 .sugerencias_semana p {
@@ -131,7 +163,7 @@ body {
 .sugerencias_semana .sugerencias_semana_formulario input + label > img {
   cursor: pointer;
 }
-.sugerencias_semana .sugerencias_semana_formulario input:hover + label > img {
+.sugerencias_semana .sugerencias_semana_formulario input:checked + label > img {
   border: 5px solid rgb(100, 206, 171);
 }
 .sugerencias_semana .sugerencias_semana_formulario label img {
@@ -219,6 +251,10 @@ body {
 }
 
 .sugerencias {
+  animation-name: movimiento;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 2s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,6 +273,10 @@ body {
 }
 
 .contacto {
+  animation-name: movimiento;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 2s;
   display: flex;
   flex-direction: column;
   justify-content: center;
