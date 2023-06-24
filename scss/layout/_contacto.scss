@@ -1,5 +1,5 @@
 .contacto {
-    @include animacion(movimiento, 1, linear, 2s);
+    @include animacion(movimiento, 1, linear, 1s);
     @include flex-section(column, center, center, wrap, 800px); 
 
     .contacto_formulario {
