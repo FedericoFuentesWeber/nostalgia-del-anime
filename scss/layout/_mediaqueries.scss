@@ -19,9 +19,12 @@
         ;
     }
 
-    .sugerencias_semana_formulario {
-        gap: 5px;
+    .sugerencias_semana {
+        .sugerencias_semana_formulario {
+            gap: 30px;
+        }
     }
+    
  }
 
  @media only screen and (max-width:768px) {
@@ -42,10 +45,13 @@
         ;
     }
 
-    .sugerencias_semana_formulario {
-        flex-direction: column;
-        align-items: center;
+    .sugerencias_semana {
+        .sugerencias_semana_formulario {
+            flex-direction: column;
+            align-items: center;
+        }
     }
+    
  }
 
  @media only screen and (min-width:360px) and (max-width:480px) {

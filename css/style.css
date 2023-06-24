@@ -302,8 +302,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
   }
-  .sugerencias_semana_formulario {
-    gap: 5px;
+  .sugerencias_semana .sugerencias_semana_formulario {
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -312,7 +312,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "area8 area8" "area9 area9" "area1 area3" "area1 area3" "area2 area2" "area2 area2" "area5 area6" "area5 area6" "area4 area7" "area4 area7";
   }
-  .sugerencias_semana_formulario {
+  .sugerencias_semana .sugerencias_semana_formulario {
     flex-direction: column;
     align-items: center;
   }
