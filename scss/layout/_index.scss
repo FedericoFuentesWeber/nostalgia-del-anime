@@ -22,7 +22,7 @@
 }
 
 .sugerencias_semana {
-    @include animacion(aparicion, 1, linear, 3s);
+    @include animacion(aparicion, 1, linear, 1s);
     margin-bottom: 30px;
 
     p {

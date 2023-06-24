@@ -142,7 +142,7 @@ body {
   animation-name: aparicion;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-duration: 3s;
+  animation-duration: 1s;
   margin-bottom: 30px;
 }
 .sugerencias_semana p {
