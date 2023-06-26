@@ -62,3 +62,16 @@
         }
     }
 }
+
+.sugerencia_contacto {
+    @include flex-input(row, wrap, space-evenly);
+
+    &_boton {
+        @include flex-input(row, wrap, center);
+        margin-bottom: 40px;
+
+        button {
+            width: 400px;
+        }
+    }
+}
